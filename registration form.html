@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>REGISTRATION FORM</title>
+    <link rel="stylesheet" href="bootstrap/..css/bootstrap.css">
+</head>
+<!--A grey horizontal navbar that becomes vertical on small screens-->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <a class="navbar-brand font-weight-bolder" href="index.html">HOME</a>
+    <!--links-->
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="navbar nav-link" href="my%20about.html">ABOUT</a>
+        </li>
+
+        <li class="nav-items">
+            <a class="navbar nav-link" href="registration%20form.html">SUBSCRIPTION FORM</a>
+        </li>
+
+
+        <li class="nav-items">
+            <a class="navbar nav-link" href="GALLERY.html">GALLERY</a>
+        </li>
+
+
+        <li class="nav-items">
+            <a class="navbar nav-link" href="contact%20us.html">CONTACT US</a>
+        </li>
+        <li class="nav-items">
+            <a class="navbar nav-link" href="SERVICES.html">SERVICES OFFERED</a>
+        </li>
+        <div class="text-center">
+            <button type="button" class="btn btn-info">LEARN MORE</button>
+        </div>
+    </ul>
+</nav>
+<style>
+    body{
+        background-image: url("images/fifa-19.jpg");
+    }
+</style>
+<body>
+<form>
+    <h1 class="font-weight-bolder font-italic text-center text-capitalize bg-info">
+        SUBSCRIPTION FORMS</h1>
+    <div class="text-success font-weight-bold col-8">
+    First name: <input type="text" name="first name"><br>
+    Second name: <input type="text" name="second name"><br>
+    eMail address: <input type="email" align="email"><br>
+            <div class="text-warning">
+            <input type="checkbox" id="checkbox">GRAND THEFT AUTO<br>
+        <input type="checkbox" id="checkbox">ASSASIN CREED<br>
+        <input type="checkbox" id="checkbox">HITMAN SILENT ASSASINS<br>
+        <input type="checkbox" id="checkbox">FIFA 17 18 19 GAMES<br>
+        <input type="checkbox" id="checkbox">CALL OF DUTY<br>
+            <input type="checkbox" id="checkbox">THE EXPANDERBLES<br>
+            <input type="checkbox" id="checkbox">THE GURDIAN<br>
+            <input type="checkbox" id="checkbox">JUST CAUSE<br>
+            </div>
+
+   Male: <input type="radio" id="male"><br>
+   Female: <input type="radio" id="female"><br>
+    Date: <input type="datetime-local"name="datetime"><br>
+       Location: <input type="text" name="location">
+    </div>
+
+    <select name="subscription" id="subscription">
+        <option value="daily">Daily subscriptions</option>
+        <option value="weekly">Weekly Subscriptions</option>
+        <option value="monthly">Monthly subscriptions</option>
+        <option value="manually">Manual subscriptions</option>
+        <option value="cancel">Cancel subscription</option>
+    </select><br>
+    <div class="font-weight-bold text-success">
+        Password: <input type="password"id="password">
+    <p>At least 8 characters</p>
+    <input type="submit" value="submit">
+    </div>
+</form>
+
+<script src="bootstrap/js/jquery.min.js"></script>
+<script src="bootstrap/js/popper.min.js"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
+</body>
+</html>
